@@ -6,8 +6,8 @@ public class gugudan {
 		// TODO Auto-generated method stub
 		int set = 5;
 		
-		for(int i = 2; i<10; i+=set) {
-			for(int j = 1; j < 10; j++) {
+		for(int i = 2; i<=9; i+=set) {
+			for(int j = 1; j <= 9; j++) {
 				for(int k = 0; k < set; k++) {
 					System.out.print((i+k) + "*" + j + "=" + (i*j));
 					
